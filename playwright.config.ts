@@ -2,7 +2,7 @@ import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
   testDir: 'src/scenarios',
-  timeout: 120000,
+  timeout: 120001,
   retries: 0,
   use: {
     trace: 'on',
